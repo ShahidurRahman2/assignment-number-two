@@ -1,0 +1,41 @@
+/* -----mobile responsive---- */
+@media screen and (max-width:576px) {
+   
+    nav{
+        margin: 50px 30px;
+        align-items: center;
+        
+    }
+    .list-items{
+        display: none;
+    }
+    .icon{
+        width: 16px;
+        color: aliceblue;
+        display: inline;
+       
+    }
+    /* ---------banner part-------- */
+    .banner-part{
+        flex-direction: column;
+    }
+    .banner-img{
+        margin-left: 0px;
+
+    }
+    .banner-text{
+        margin-left: 20px;
+    }
+    .header-description{
+        width: 400px;
+    }
+    .banner-card1{
+        margin-right: 200px;
+        width: 150px;
+    }
+    .banner-card2{
+        margin-left: 90px;
+        width: 217px;
+    }
+}
+

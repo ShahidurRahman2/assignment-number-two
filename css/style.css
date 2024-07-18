@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+@import url('https://fonts.googleapis.com/css2?family=Marck+Script&display=swap');
+.marck-script-normal {
+    font-family: "Marck Script", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+header{
+    background-color: rgba(17, 17, 17, 1.00);
+}
+nav{
+    max-width:1060px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(17, 17, 17, 1.00);
+    padding: 20px 0px;
+}
+nav h1{
+    color: rgba(230, 83, 60, 1.00);
+    font-weight: 900;
+    font-style: italic;
+    font-size: 2.5 rem;
+    letter-spacing: 2px;
+
+}
+.list-items{
+    display: flex;
+    color: #fff;
+    gap: 40px;
+    
+}
+.list-items li{
+    list-style: none;
+    
+}
+.list-items li a{
+    color: #fff;
+    text-decoration: none;
+}
+.btn-primary{
+    background-color:rgba(230, 83, 60, 1.00) ;
+    border-radius: 30px;
+    padding: 5px 15px;
+    color: #fff;
+    border: none;
+}
+.icon{
+    display: none;
+}
+/* ------banner part------ */
+.banner-part{
+    display: flex;
+    width: 1060px;
+    margin: 50px auto;
+
+}
+.heading-title{
+    font-weight: 800;
+    font-size: 4rem;
+    margin-bottom: 30px;
+}
+.header-description{
+    margin-bottom: 20px;
+}
+.banner-text{
+    width: 50%;
+    color: #fff;
+   
+}
+.banner-img{
+    width: 40%;
+    color: #fff;
+    margin-left: 200px;
+    
+}
+.banner-img img{
+    width: 100%;
+
+}
+.banner-card1{
+    width: 190px;
+    height: 90px;
+    background-color: rgba(255, 255, 255, 0.10);
+    text-align: center;
+    border-radius: 10px;
+    position: absolute;
+    margin-top: 150px;
+    margin-left: 250px;
+    padding-top: 10px;
+   
+}
+.banner-card2{
+    width: 217px;
+    height: 90px;
+    display: flex;
+    justify-content: space-around;
+    
+    background-color: rgba(255, 255, 255, 0.10);
+    border-radius: 10px;
+    position: absolute;
+    margin-top: -200px;
+   margin-left: -100px;
+   padding-top: 20px;
+}
+.btn1{
+    padding: 10px 25px;
+    border-radius: 30px;
+    background-color:  rgba(230, 83, 60, 1.00);
+    color:#fff;
+}
+.btn2{
+    padding: 10px 25px;
+    border-radius: 30px;
+    color: #fff;
+    background: none;
+    border: 1px solid ;
+}
+.banner-cd{
+    
+}
+.banner-circle{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: rgba(230, 83, 60, 1.00) ;
+}
