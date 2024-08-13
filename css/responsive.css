@@ -81,7 +81,7 @@
     }
     .flex {
         flex-direction: column;
-        width: 100%;
+        width: 92%;
     }
     .text-container-bmi {
         width: 100%;
@@ -127,8 +127,17 @@
     iframe{
         width:390px ;
     }
-    .house{
-        width:35%;
+    .house {
+        /* width: 36%; */
+        flex-direction: column;
+        /* margin: 0px 42px; */
+        padding: 19px 15px;
+    }
+    .lnk-1, .lnk-2{
+        width: 100%;
+    }
+    .hose{
+        width: 100%;
     }
 }
 
